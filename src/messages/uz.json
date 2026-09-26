@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Solution — Studentlar jamoasi",
+    "description": "Solution — hackatonlarda birga qatnashadigan 3 nafar studentdan iborat jamoa. A'zolar, loyihalar va biz hal qilgan muammolar."
+  },
+  "nav": {
+    "team": "Jamoa",
+    "projects": "Loyihalar",
+    "stack": "Texnologiyalar",
+    "contact": "Aloqa",
+    "theme": "Mavzuni almashtirish",
+    "language": "Til"
+  },
+  "hero": {
+    "badge": "Yangi hackatonlarga tayyormiz",
+    "title": "Muammolarni <g>yechimga</g> aylantiramiz",
+    "subtitle": "Biz — 3 nafar studentdan iborat jamoa. Hackatonlarda birga ishlab, real muammolarga qisqa vaqtda ishlaydigan texnologik yechimlar quramiz.",
+    "ctaProjects": "Loyihalarni ko'rish",
+    "ctaContact": "Bog'lanish",
+    "students": "3 student · 1 jamoa"
+  },
+  "bento": {
+    "awards": "Mukofotlar",
+    "projects": "Loyihalar",
+    "projectsHint": "hackatonlarda qurilgan",
+    "hackathons": "Hackatonlar",
+    "hackathonsHint": "birga qatnashgan",
+    "team": "Jamoa",
+    "stack": "Texnologiyalar",
+    "latest": "So'nggi natija",
+    "participant": "Ishtirokchi"
+  },
+  "team": {
+    "eyebrow": "Jamoa",
+    "title": "Biz kimmiz",
+    "subtitle": "Har birimiz o'z yo'nalishimizda kuchlimiz — birgalikda esa g'oyadan tayyor mahsulotgacha olib bora olamiz.",
+    "more": "Profil",
+    "projectsCount": "loyiha"
+  },
+  "projects": {
+    "eyebrow": "Loyihalar",
+    "title": "Qilgan ishlarimiz",
+    "subtitle": "Hackatonlarda birga qurgan loyihalar: qanday muammo bor edi, qanday yechim topdik va natija qanday bo'ldi.",
+    "more": "Batafsil",
+    "problem": "Muammo",
+    "solution": "Yechim",
+    "result": "Natija",
+    "tech": "Texnologiyalar",
+    "contributions": "Kim nima qildi",
+    "metrics": "Asosiy natijalar",
+    "links": "Havolalar",
+    "github": "GitHub",
+    "demo": "Demo",
+    "presentation": "Taqdimot",
+    "gallery": "Skrinshotlar",
+    "back": "Barcha loyihalar",
+    "next": "Keyingi loyiha"
+  },
+  "stack": {
+    "eyebrow": "Texnologiyalar",
+    "title": "Jamoa stack'i",
+    "subtitle": "Biz ishlatadigan asosiy texnologiyalar va ularni jamoada kim biladi."
+  },
+  "member": {
+    "about": "Haqida",
+    "skills": "Ko'nikmalar",
+    "education": "Ta'lim",
+    "achievements": "Yutuqlar",
+    "projects": "Qatnashgan loyihalari",
+    "contacts": "Aloqa",
+    "experience": "Tajriba",
+    "languages": "Tillar",
+    "interests": "Qiziqishlari",
+    "cv": "Rezyume (CV)",
+    "next": "Keyingi a'zo",
+    "works": "Shaxsiy loyihalari",
+    "back": "Jamoaga qaytish"
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title": "Keling, birga ishlaymiz",
+    "subtitle": "Hackaton, loyiha yoki hamkorlik bo'yicha yozing — tez orada javob beramiz.",
+    "name": "Ismingiz",
+    "reach": "Email yoki Telegram",
+    "message": "Xabar",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda...",
+    "success": "Rahmat! Xabaringiz yuborildi.",
+    "error": "Xatolik yuz berdi. Keyinroq urinib ko'ring yoki Telegram orqali yozing.",
+    "invalid": "Iltimos, barcha maydonlarni to'ldiring."
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "back": "Bosh sahifaga"
+  }
+}

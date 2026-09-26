@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Solution — Student Team",
+    "description": "Solution is a team of 3 students competing in hackathons together. Our members, projects and the problems we solved."
+  },
+  "nav": {
+    "team": "Team",
+    "projects": "Projects",
+    "stack": "Stack",
+    "contact": "Contact",
+    "theme": "Toggle theme",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Ready for the next hackathon",
+    "title": "We turn problems into <g>solutions</g>",
+    "subtitle": "We are a team of 3 students. Together we compete in hackathons and ship working tech solutions to real problems — fast.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "students": "3 students · 1 team"
+  },
+  "bento": {
+    "awards": "Awards",
+    "projects": "Projects",
+    "projectsHint": "built at hackathons",
+    "hackathons": "Hackathons",
+    "hackathonsHint": "competed together",
+    "team": "Team",
+    "stack": "Tech stack",
+    "latest": "Latest result",
+    "participant": "Participant"
+  },
+  "team": {
+    "eyebrow": "Team",
+    "title": "Who we are",
+    "subtitle": "Each of us is strong in our own field — together we take an idea all the way to a working product.",
+    "more": "Profile",
+    "projectsCount": "projects"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "What we've built",
+    "subtitle": "Projects we built together at hackathons: the problem, the solution we found and the result.",
+    "more": "Details",
+    "problem": "Problem",
+    "solution": "Solution",
+    "result": "Result",
+    "tech": "Tech stack",
+    "contributions": "Who did what",
+    "metrics": "Key results",
+    "links": "Links",
+    "github": "GitHub",
+    "demo": "Demo",
+    "presentation": "Pitch deck",
+    "gallery": "Screenshots",
+    "back": "All projects",
+    "next": "Next project"
+  },
+  "stack": {
+    "eyebrow": "Stack",
+    "title": "Team stack",
+    "subtitle": "The core technologies we use and who on the team knows them."
+  },
+  "member": {
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "achievements": "Achievements",
+    "projects": "Projects",
+    "contacts": "Contacts",
+    "experience": "Experience",
+    "languages": "Languages",
+    "interests": "Interests",
+    "cv": "Resume (CV)",
+    "next": "Next member",
+    "works": "Personal projects",
+    "back": "Back to team"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build together",
+    "subtitle": "Reach out about hackathons, projects or collaboration — we'll reply soon.",
+    "name": "Your name",
+    "reach": "Email or Telegram",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent.",
+    "error": "Something went wrong. Please try again later or message us on Telegram.",
+    "invalid": "Please fill in all fields."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Go home"
+  }
+}
