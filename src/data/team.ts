@@ -91,7 +91,7 @@ export const team: Member[] = [
       linkedin: "https://linkedin.com/in/botirovdev",
       telegram: "https://t.me/mustafo_dv",
       instagram: "https://instagram.com/dilmuradov1ch_",
-      email: "botiorvdev7@gmail.com",
+      email: "botirovdev7@gmail.com",
     },
     location: { uz: "Urganch", ru: "Ургенч", en: "Urgench" },
     experience: [
