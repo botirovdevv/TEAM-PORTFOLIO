@@ -1,6 +1,5 @@
 import type { Member } from "./types";
 
-// ⚠️ PLACEHOLDER — real ma'lumotlar bilan almashtiring.
 export const team: Member[] = [
   {
     slug: "usmon-reyimberganov",
@@ -121,23 +120,78 @@ export const team: Member[] = [
     ],
   },
   {
-    slug: "member-3",
-    name: { uz: "Ism Familiya 3", ru: "Имя Фамилия 3", en: "Name Surname 3" },
-    role: { uz: "UI/UX dizayner & Mobil", ru: "UI/UX дизайнер и мобильная разработка", en: "UI/UX Designer & Mobile" },
+    slug: "azizbek-erkayev",
+    name: { uz: "Azizbek Erkayev", ru: "Азизбек Эркаев", en: "Azizbek Erkayev" },
+    role: {
+      uz: "Sun'iy intellekt · Startaplar",
+      ru: "Искусственный интеллект · Стартапы",
+      en: "Artificial Intelligence · Startups",
+    },
+    photo: "/team/Azizbek.png",
     shortBio: {
-      uz: "Dizayn, prototiplar va mobil ilovalar bilan shug'ullanadi.",
-      ru: "Занимается дизайном, прототипами и мобильными приложениями.",
-      en: "Works on design, prototypes and mobile apps.",
+      uz: "Xato qilishdan qo'rqmaydigan va ulardan tez xulosa chiqaradigan inson — sun'iy intellekt asosida startaplar qurishni maqsad qilgan.",
+      ru: "Человек, который не боится ошибаться и быстро делает из них выводы, — стремится строить стартапы на основе искусственного интеллекта.",
+      en: "Not afraid of making mistakes and quick to learn from them — aiming to build startups powered by artificial intelligence.",
     },
     bio: {
-      uz: "Bu yerda a'zo haqida batafsil ma'lumot bo'ladi.",
-      ru: "Здесь будет подробная информация об участнике.",
-      en: "Detailed information about the member goes here.",
+      uz: "Azizbek 2008-yilda Xorazm viloyatida tug'ilgan. Yangibozor tumanidagi IMI ni bitirgach, Al-Xorazmiy universitetiga 4 yillik grant asosida o'qishga kirgan. Hozir sun'iy intellekt yo'nalishida 2-kurs talabasi.\n\nStartap qurish bo'yicha tajribaga ega: \"UPSHIFT\" loyihasi uchun 14 mln so'm investitsiya jalb qilgan. 2 yildan beri Urganch shahrida SAT bo'yicha mentorlik qiladi. Ko'plab sport turlari, kitob o'qish va shaxmatga qiziqadi. Maqsadi — sun'iy intellekt bilan turli startaplar qurib, ularni rivojlantirish.",
+      ru: "Азизбек родился в 2008 году в Хорезмской области. После окончания IMI в Янгибазарском районе поступил в университет Аль-Хорезми на 4-летний грант. Сейчас студент 2 курса направления «Искусственный интеллект».\n\nИмеет опыт создания стартапов: привлёк 14 млн сумов инвестиций в проект «UPSHIFT». Уже 2 года работает SAT-ментором в Ургенче. Увлекается многими видами спорта, чтением книг и шахматами. Цель — создавать и развивать стартапы на основе искусственного интеллекта.",
+      en: "Azizbek was born in 2008 in the Khorezm region. After graduating from IMI in Yangibazar district, Azizbek entered Al-Khwarizmi University on a 4-year grant and is now a 2nd-year Artificial Intelligence student.\n\nAzizbek has hands-on startup experience, having raised 14 million UZS in investment for the \"UPSHIFT\" project, and has been working as a SAT mentor in Urgench for 2 years. Interests include many sports, reading and chess. The goal: to build and grow startups powered by artificial intelligence.",
     },
-    skills: ["Figma", "Flutter", "Firebase", "Python"],
-    education: { uz: "Universitet nomi, 2-kurs", ru: "Название университета, 2 курс", en: "University name, 2nd year" },
-    achievements: [{ uz: "Eng yaxshi dizayn nominatsiyasi", ru: "Номинация «Лучший дизайн»", en: "Best Design award" }],
-    socials: { telegram: "https://t.me/", email: "member3@example.com" },
+    skills: ["AI", "Startup", "SAT Math", "English C1"],
+    education: {
+      uz: "Al-Xorazmiy universiteti — Sun'iy intellekt, 2-kurs (grant)",
+      ru: "Университет Аль-Хорезми — Искусственный интеллект, 2 курс (грант)",
+      en: "Al-Khwarizmi University — Artificial Intelligence, 2nd year (grant)",
+    },
+    achievements: [
+      {
+        uz: "\"UPSHIFT\" loyihasi uchun 14 mln so'm investitsiya",
+        ru: "14 млн сумов инвестиций в проект «UPSHIFT»",
+        en: "14M UZS investment for the \"UPSHIFT\" project",
+      },
+      {
+        uz: "Al-Xorazmiy universitetiga 4 yillik grant",
+        ru: "4-летний грант в университет Аль-Хорезми",
+        en: "4-year grant to Al-Khwarizmi University",
+      },
+      { uz: "Ingliz tili — C1", ru: "Английский — C1", en: "English — C1" },
+    ],
+    socials: {
+      github: "https://github.com/Jentelmen01",
+      linkedin: "https://www.linkedin.com/in/azizbek-erkayev-7066a9415",
+      telegram: "https://t.me/sat_math_mentor",
+      instagram: "https://instagram.com/azizbek_mentor",
+      email: "azizbekerkayev814@gmail.com",
+    },
+    location: { uz: "Urganch", ru: "Ургенч", en: "Urgench" },
+    experience: [
+      {
+        period: { uz: "2 yil", ru: "2 года", en: "2 years" },
+        title: { uz: "SAT mentori", ru: "SAT-ментор", en: "SAT Mentor" },
+        place: { uz: "Urganch", ru: "Ургенч", en: "Urgench" },
+      },
+      {
+        title: { uz: "Startap asoschisi", ru: "Основатель стартапа", en: "Startup Founder" },
+        place: { uz: "UPSHIFT", ru: "UPSHIFT", en: "UPSHIFT" },
+        description: {
+          uz: "Loyiha uchun 14 mln so'm investitsiya jalb qilindi.",
+          ru: "Для проекта привлечено 14 млн сумов инвестиций.",
+          en: "Raised 14 million UZS in investment for the project.",
+        },
+      },
+    ],
+    works: [{ name: "UPSHIFT", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } }],
+    languages: [
+      { uz: "O'zbek — ona tili", ru: "Узбекский — родной", en: "Uzbek — native" },
+      { uz: "Ingliz — C1", ru: "Английский — C1", en: "English — C1" },
+    ],
+    interests: [
+      { uz: "Sport", ru: "Спорт", en: "Sports" },
+      { uz: "Shaxmat", ru: "Шахматы", en: "Chess" },
+      { uz: "Kitob o'qish", ru: "Чтение книг", en: "Reading" },
+      { uz: "Kino ko'rish", ru: "Кино", en: "Movies" },
+    ],
   },
 ];
 

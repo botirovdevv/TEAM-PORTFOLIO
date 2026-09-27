@@ -40,7 +40,7 @@ export const projects: Project[] = [
     contributions: [
       { member: "usmon-reyimberganov", task: { uz: "Backend va API", ru: "Backend и API", en: "Backend & API" } },
       { member: "mustafo-botirov", task: { uz: "Veb interfeys", ru: "Веб-интерфейс", en: "Web interface" } },
-      { member: "member-3", task: { uz: "Dizayn va taqdimot", ru: "Дизайн и презентация", en: "Design & pitch" } },
+      { member: "azizbek-erkayev", task: { uz: "Dizayn va taqdimot", ru: "Дизайн и презентация", en: "Design & pitch" } },
     ],
     links: { github: "https://github.com/", demo: "https://example.com/" },
   },
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase", "Python"],
     contributions: [
       { member: "usmon-reyimberganov", task: { uz: "ML model", ru: "ML-модель", en: "ML model" } },
-      { member: "member-3", task: { uz: "Mobil ilova", ru: "Мобильное приложение", en: "Mobile app" } },
+      { member: "azizbek-erkayev", task: { uz: "Mobil ilova", ru: "Мобильное приложение", en: "Mobile app" } },
     ],
     links: { github: "https://github.com/" },
   },
