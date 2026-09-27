@@ -22,7 +22,7 @@
   "bento": {
     "awards": "Награды",
     "projects": "Проекты",
-    "projectsHint": "созданы на хакатонах",
+    "projectsHint": "созданы участниками команды",
     "hackathons": "Хакатоны",
     "hackathonsHint": "пройдено вместе",
     "team": "Команда",
