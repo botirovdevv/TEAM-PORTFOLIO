@@ -43,8 +43,8 @@ export type Member = {
   languages?: L[];
   /** Qiziqishlari / hobbilari */
   interests?: L[];
-  /** Shaxsiy loyihalari / qilgan ishlari: nomi + (ixtiyoriy) roli, masalan "Asoschi" */
-  works?: { name: string; role?: L }[];
+  /** Shaxsiy loyihalari: nomi + (ixtiyoriy) roli ("Asoschi"), mukofoti ("1-o'rin"), qisqa tavsifi va sayt havolasi */
+  works?: { name: string; role?: L; award?: L; description?: L; url?: string }[];
   /** public/ ichidagi rezyume fayli, masalan "/cv/ali.pdf" */
   cv?: string;
 };

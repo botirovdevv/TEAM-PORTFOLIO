@@ -52,8 +52,8 @@ export const team: Member[] = [
       },
     ],
     works: [
-      { name: "smile-movies.uz", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } },
-      { name: "xorazmvbsks.uz" },
+      { name: "smile-movies.uz", url: "https://smile-movies.uz", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } },
+      { name: "xorazmvbsks.uz", url: "https://xorazmvbsks.uz" },
     ],
     languages: [
       { uz: "O'zbek — ona tili", ru: "Узбекский — родной", en: "Uzbek — native" },
@@ -111,7 +111,8 @@ export const team: Member[] = [
       },
     ],
     works: [
-      { name: "prep-zone.uz", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } },
+      { name: "prep-zone.uz", url: "https://prep-zone.uz", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } },
+      { name: "xorazmvbsks.uz", url: "https://xorazmvbsks.uz" },
       { name: "Online Movie Bot" },
     ],
     languages: [
@@ -134,9 +135,9 @@ export const team: Member[] = [
       en: "Not afraid of making mistakes and quick to learn from them — aiming to build startups powered by artificial intelligence.",
     },
     bio: {
-      uz: "Azizbek 2008-yilda Xorazm viloyatida tug'ilgan. Yangibozor tumanidagi IMI ni bitirgach, Al-Xorazmiy universitetiga 4 yillik grant asosida o'qishga kirgan. Hozir sun'iy intellekt yo'nalishida 2-kurs talabasi.\n\nStartap qurish bo'yicha tajribaga ega: \"UPSHIFT\" loyihasi uchun 14 mln so'm investitsiya jalb qilgan. 2 yildan beri Urganch shahrida SAT bo'yicha mentorlik qiladi. Ko'plab sport turlari, kitob o'qish va shaxmatga qiziqadi. Maqsadi — sun'iy intellekt bilan turli startaplar qurib, ularni rivojlantirish.",
-      ru: "Азизбек родился в 2008 году в Хорезмской области. После окончания IMI в Янгибазарском районе поступил в университет Аль-Хорезми на 4-летний грант. Сейчас студент 2 курса направления «Искусственный интеллект».\n\nИмеет опыт создания стартапов: привлёк 14 млн сумов инвестиций в проект «UPSHIFT». Уже 2 года работает SAT-ментором в Ургенче. Увлекается многими видами спорта, чтением книг и шахматами. Цель — создавать и развивать стартапы на основе искусственного интеллекта.",
-      en: "Azizbek was born in 2008 in the Khorezm region. After graduating from IMI in Yangibazar district, Azizbek entered Al-Khwarizmi University on a 4-year grant and is now a 2nd-year Artificial Intelligence student.\n\nAzizbek has hands-on startup experience, having raised 14 million UZS in investment for the \"UPSHIFT\" project, and has been working as a SAT mentor in Urgench for 2 years. Interests include many sports, reading and chess. The goal: to build and grow startups powered by artificial intelligence.",
+      uz: "Azizbek 2008-yilda Xorazm viloyatida tug'ilgan. Yangibozor tumanidagi IMI ni bitirgach, Al-Xorazmiy universitetiga 4 yillik grant asosida o'qishga kirgan. Hozir sun'iy intellekt yo'nalishida 2-kurs talabasi.\n\nStartap qurish bo'yicha tajribaga ega: \"UPSHIFT\" loyihasida 1-o'rinni egallab, 14 mln so'm investitsiya jalb qilgan. 2 yildan beri Urganch shahrida SAT bo'yicha mentorlik qiladi. Ko'plab sport turlari, kitob o'qish va shaxmatga qiziqadi. Maqsadi — sun'iy intellekt bilan turli startaplar qurib, ularni rivojlantirish.",
+      ru: "Азизбек родился в 2008 году в Хорезмской области. После окончания IMI в Янгибазарском районе поступил в университет Аль-Хорезми на 4-летний грант. Сейчас студент 2 курса направления «Искусственный интеллект».\n\nИмеет опыт создания стартапов: занял 1-е место в проекте «UPSHIFT» и привлёк 14 млн сумов инвестиций. Уже 2 года работает SAT-ментором в Ургенче. Увлекается многими видами спорта, чтением книг и шахматами. Цель — создавать и развивать стартапы на основе искусственного интеллекта.",
+      en: "Azizbek was born in 2008 in the Khorezm region. After graduating from IMI in Yangibazar district, Azizbek entered Al-Khwarizmi University on a 4-year grant and is now a 2nd-year Artificial Intelligence student.\n\nAzizbek has hands-on startup experience, having won 1st place in the \"UPSHIFT\" project and raised 14 million UZS in investment, and has been working as a SAT mentor in Urgench for 2 years. Interests include many sports, reading and chess. The goal: to build and grow startups powered by artificial intelligence.",
     },
     skills: ["AI", "Startup", "SAT Math", "English C1"],
     education: {
@@ -146,9 +147,9 @@ export const team: Member[] = [
     },
     achievements: [
       {
-        uz: "\"UPSHIFT\" loyihasi uchun 14 mln so'm investitsiya",
-        ru: "14 млн сумов инвестиций в проект «UPSHIFT»",
-        en: "14M UZS investment for the \"UPSHIFT\" project",
+        uz: "\"UPSHIFT\" loyihasida 1-o'rin va 14 mln so'm investitsiya",
+        ru: "1-е место в проекте «UPSHIFT» и 14 млн сумов инвестиций",
+        en: "1st place in \"UPSHIFT\" and 14M UZS investment",
       },
       {
         uz: "Al-Xorazmiy universitetiga 4 yillik grant",
@@ -172,16 +173,26 @@ export const team: Member[] = [
         place: { uz: "Urganch", ru: "Ургенч", en: "Urgench" },
       },
       {
-        title: { uz: "Startap asoschisi", ru: "Основатель стартапа", en: "Startup Founder" },
+        title: { uz: "1-o'rin", ru: "1-е место", en: "1st place" },
         place: { uz: "UPSHIFT", ru: "UPSHIFT", en: "UPSHIFT" },
         description: {
-          uz: "Loyiha uchun 14 mln so'm investitsiya jalb qilindi.",
-          ru: "Для проекта привлечено 14 млн сумов инвестиций.",
-          en: "Raised 14 million UZS in investment for the project.",
+          uz: "Loyiha 1-o'rinni egalladi va 14 mln so'm investitsiya jalb qilindi.",
+          ru: "Проект занял 1-е место и привлёк 14 млн сумов инвестиций.",
+          en: "The project won 1st place and raised 14 million UZS in investment.",
         },
       },
     ],
-    works: [{ name: "UPSHIFT", role: { uz: "Asoschi", ru: "Основатель", en: "Founder" } }],
+    works: [
+      {
+        name: "UPSHIFT",
+        award: { uz: "1-o'rin", ru: "1-е место", en: "1st place" },
+        description: {
+          uz: "14 mln so'm investitsiya jalb qilingan startap loyiha.",
+          ru: "Стартап-проект, привлёкший 14 млн сумов инвестиций.",
+          en: "Startup project that raised 14 million UZS in investment.",
+        },
+      },
+    ],
     languages: [
       { uz: "O'zbek — ona tili", ru: "Узбекский — родной", en: "Uzbek — native" },
       { uz: "Ingliz — C1", ru: "Английский — C1", en: "English — C1" },

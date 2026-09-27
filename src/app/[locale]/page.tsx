@@ -4,12 +4,10 @@ import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/data/site";
 import { team } from "@/data/team";
-import { projects } from "@/data/projects";
 import Logo from "@/components/Logo";
 import Section from "@/components/Section";
 import Bento from "@/components/Bento";
 import MemberCard from "@/components/MemberCard";
-import ProjectCard from "@/components/ProjectCard";
 import TechStack from "@/components/TechStack";
 import ContactForm from "@/components/ContactForm";
 import SocialLinks from "@/components/SocialLinks";
@@ -51,10 +49,10 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
 
             <div className="animate-fade-up delay-3 mt-10 flex flex-wrap justify-center gap-3">
               <Link
-                href="/#projects"
+                href="/#team"
                 className="group inline-flex items-center gap-2 rounded-xl bg-fg px-6 py-3.5 text-sm font-semibold text-bg shadow-xl shadow-accent/20 transition hover:opacity-90"
               >
-                {t("hero.ctaProjects")}
+                {t("hero.ctaTeam")}
                 <ArrowRightIcon width={16} height={16} className="transition group-hover:translate-x-0.5" />
               </Link>
               <Link
@@ -81,17 +79,8 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
         </div>
       </Section>
 
-      {/* LOYIHALAR */}
-      <Section id="projects" index="02" eyebrow={t("projects.eyebrow")} title={t("projects.title")} subtitle={t("projects.subtitle")}>
-        <div className="space-y-6">
-          {projects.map((p, i) => (
-            <ProjectCard key={p.slug} project={p} index={i} />
-          ))}
-        </div>
-      </Section>
-
       {/* TEXNOLOGIYALAR */}
-      <Section id="stack" index="03" eyebrow={t("stack.eyebrow")} title={t("stack.title")} subtitle={t("stack.subtitle")}>
+      <Section id="stack" index="02" eyebrow={t("stack.eyebrow")} title={t("stack.title")} subtitle={t("stack.subtitle")}>
         <TechStack />
       </Section>
 
@@ -101,7 +90,7 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
           <div className="orb -bottom-24 -left-24 h-72 w-72 bg-accent/25" />
           <div className="relative">
             <p className="mb-4 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.2em] text-accent">
-              <span className="text-muted">04</span>
+              <span className="text-muted">03</span>
               <span className="h-px w-8 bg-accent/50" />
               {t("contact.eyebrow")}
             </p>

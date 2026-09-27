@@ -15,7 +15,7 @@
     "badge": "Yangi hackatonlarga tayyormiz",
     "title": "Muammolarni <g>yechimga</g> aylantiramiz",
     "subtitle": "Biz — 3 nafar studentdan iborat jamoa. Hackatonlarda birga ishlab, real muammolarga qisqa vaqtda ishlaydigan texnologik yechimlar quramiz.",
-    "ctaProjects": "Loyihalarni ko'rish",
+    "ctaTeam": "Jamoani ko'rish",
     "ctaContact": "Bog'lanish",
     "students": "3 student · 1 jamoa"
   },
@@ -66,14 +66,13 @@
     "skills": "Ko'nikmalar",
     "education": "Ta'lim",
     "achievements": "Yutuqlar",
-    "projects": "Qatnashgan loyihalari",
+    "projects": "Loyihalari",
     "contacts": "Aloqa",
     "experience": "Tajriba",
     "languages": "Tillar",
     "interests": "Qiziqishlari",
     "cv": "Rezyume (CV)",
     "next": "Keyingi a'zo",
-    "works": "Shaxsiy loyihalari",
     "back": "Jamoaga qaytish"
   },
   "contact": {

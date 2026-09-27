@@ -9,7 +9,6 @@ export default function Header() {
   const t = useTranslations("nav");
   const links = [
     { href: "/#team", label: t("team") },
-    { href: "/#projects", label: t("projects") },
     { href: "/#stack", label: t("stack") },
     { href: "/#contact", label: t("contact") },
   ];

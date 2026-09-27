@@ -15,7 +15,7 @@
     "badge": "Ready for the next hackathon",
     "title": "We turn problems into <g>solutions</g>",
     "subtitle": "We are a team of 3 students. Together we compete in hackathons and ship working tech solutions to real problems — fast.",
-    "ctaProjects": "View projects",
+    "ctaTeam": "Meet the team",
     "ctaContact": "Get in touch",
     "students": "3 students · 1 team"
   },
@@ -73,7 +73,6 @@
     "interests": "Interests",
     "cv": "Resume (CV)",
     "next": "Next member",
-    "works": "Personal projects",
     "back": "Back to team"
   },
   "contact": {
